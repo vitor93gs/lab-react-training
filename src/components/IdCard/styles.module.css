@@ -1,0 +1,14 @@
+.divzona{
+    display:flex;
+    justify-content: left;
+    border: black solid 1px;
+    padding: 10px;
+}
+.divzinha{
+    padding:0px 0px 0px 10px;
+    margin:0px 0px 0px 0px;
+}
+.divzinha p{
+    margin: 8px 0px 0px 0px;
+    padding: 0px;
+}
