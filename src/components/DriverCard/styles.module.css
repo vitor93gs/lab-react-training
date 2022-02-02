@@ -1,0 +1,30 @@
+.img{
+    height: 15%;
+    width: 15%;
+    margin: 0px 30px 0px 0px;
+    border-radius: 50%;
+}
+.divzona{
+    display: flex;
+    justify-content: center;
+    background-color: #455EB5;
+    padding: 40px;
+    color: white;
+    border-radius: 40px;
+    width: 60%;
+}
+.divzinha h2{
+    font-size: 2em;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+.divzinha p{
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    font-size: 1.5em;
+}
+.divzinha rats{
+    margin: 0px;
+    padding: 0px;
+}
+
