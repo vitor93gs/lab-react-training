@@ -5,6 +5,13 @@ import {BoxColor} from "./components/BoxColor"
 import {CreditCard} from "./components/CreditCard"
 import {Rating} from "./components/Rating"
 import {DriverCard} from "./components/DriverCard"
+import {Clicavel} from "./components/Clicavel"
+import maxence from "./assets/images/maxence.png"
+import maxenceGlasses from "./assets/images/maxence-glasses.png"
+import {LikeButton} from "./components/LikeButton"
+import {Dice} from "./components/Dice"
+import {Carousel} from "./components/Carousel"
+import {NumbersTable} from "./components/NumbersTable"
 
 function App() {
   return (
@@ -52,6 +59,24 @@ function App() {
         licensePlate: "BE33ER"
         }}
       />
+      <Clicavel
+      img= {maxence}
+      imgClicked= {maxenceGlasses}
+      />
+      <br/>
+      <LikeButton/>
+      <br/>
+      <Dice/>
+      <br/>
+      <Carousel
+      images={[
+      'https://randomuser.me/api/portraits/women/1.jpg',
+      'https://randomuser.me/api/portraits/men/1.jpg',
+      'https://randomuser.me/api/portraits/women/2.jpg',
+      'https://randomuser.me/api/portraits/men/2.jpg'
+      ]}
+      />
+      <NumbersTable limit={23}/>
     </div>
   );
 }
